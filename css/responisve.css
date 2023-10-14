@@ -1,0 +1,342 @@
+
+/*Big Size Screens*/
+@media (min-width:1200px)and (max-width: 1350px)
+{
+	
+	.shoppingCenter .owl-theme .owl-controls .owl-buttons div
+	{
+		opacity:.8;
+	    right: 0;
+	}
+	.shoppingCenter .owl-theme .owl-controls .owl-buttons div.owl-prev
+	{
+		left:0
+	}
+	
+	.shoppingCenter .owl-theme .owl-controls .owl-buttons div:hover
+	{
+		opacity:1
+	}
+}
+
+
+/*Big Size Screens*/
+@media (min-width:992px)and (max-width: 1200px)
+{
+	
+	.header .logo
+	{
+		max-width: 300px;
+	}
+	
+	.header .navBar li
+	{
+		padding:0 10px
+	}
+	.shoppingCenter .owl-theme .owl-controls .owl-buttons div
+	{
+
+	    right: 0;
+	}
+	.shoppingCenter .owl-theme .owl-controls .owl-buttons div.owl-prev
+	{
+		left:0
+	}
+	
+}
+
+/* small Screens & tablets & Smart phone */
+@media (max-width: 991px) 
+{
+
+	.header
+	{
+		padding:5px 0 11px
+	}
+	
+	.header.HeaderFixed .open-menu
+	{
+		margin-top: 26px;
+	}
+	
+	.header .logo
+	{
+		float:right;
+		margin-top:10px;
+		margin-bottom:5px;
+		max-width:250px;
+	}
+	
+	
+	.header .open-menu
+	{
+		display:block;
+		margin-top:33px;
+	}
+	
+	.header .navBar 
+	{
+		display:none;
+	}
+	
+	.aboutUs .desc
+	{
+		width:100%
+	}
+	
+	.shoppingCenter .owl-theme .owl-controls .owl-buttons div
+	{
+	    width: 50px;
+    	height: 50px;
+    	line-height: 46px;
+    	font-size: 26px;
+	    right: 0;
+	}
+	.shoppingCenter .owl-theme .owl-controls .owl-buttons div.owl-prev
+	{
+		left:0
+	}
+}
+
+/* Small Screens */
+@media (min-width: 768px) and (max-width: 991px) 
+{
+	
+	
+}
+
+/* Mobile & Tablets */
+@media (max-width: 767px) 
+{
+	
+	.sliderDetails
+	{
+		padding-top:200px
+	}
+	
+	.slider img
+	{
+		height:500px
+	}
+	
+	.sliderDetails .title
+	{
+		font-size:27px;
+	}
+	
+	.sliderDetails .desc
+	{
+		font-size:20px
+	}
+	
+	.the-slider-control
+	{
+		top: calc(50% + 90px);
+	}
+	
+	.the-slider-control li span i
+	{
+	    width: 50px;
+    	height: 50px;
+    	line-height: 46px;
+    	font-size: 26px;
+	}
+	
+	.the-slider-control li span#home-prev
+	{
+		margin-right:50px
+	}
+
+	.bx-wrapper .bx-has-pager
+	{
+		top: calc(50% + -5px);
+	}
+	
+	.footer .footerDown
+	{
+		text-align:center
+	}
+	
+	.footer .footerDown .copyrights
+	{
+		float:none;
+	}
+	
+	.footer .footerDown .logoTaha
+	{
+		float:none;
+		display:inline-block;
+		margin-bottom:15px
+	}
+
+	.shoppingCenter .btnsTabs li
+	{
+		width:140px
+	}
+
+	.modal-dialog
+	{
+		width:auto
+	}
+
+}
+
+/* Tablets */
+@media (min-width:480px) and (max-width: 767px)
+{
+	.services .item .detailsItem
+	{
+		padding-left:15px;
+		padding-right:15px
+	}
+	
+	.services .item .detailsItem .title
+	{
+		font-size:16px;
+
+	}
+	
+	.orderModal .modal-body .orderForm .inputStyle .inputFloat
+	{
+		    width: 46%;
+	}
+}
+
+/* Mobile */
+@media (max-width: 479px) 
+{
+	
+	.header .logo
+	{
+		max-width:170px
+	}
+	
+	.header.HeaderFixed .logo
+	{
+		max-width:150px
+	}
+	
+	.header .open-menu
+	{
+		margin-top:21px
+	}
+	.header.HeaderFixed .open-menu
+	{
+		margin-top:18px
+	}
+	
+	.bx-wrapper .bx-has-pager
+	{
+		display:none
+	}
+	.sliderDetails
+	{
+		padding-top:140px
+	}
+	
+	.slider img
+	{
+		height:400px
+	}
+	
+	.the-slider-control li
+	{
+		float:right
+	}
+	
+	.the-slider-control li span#home-prev
+	{
+		margin-right:0
+	}
+	
+	.the-slider-control
+	{
+		top:auto;
+		bottom:0
+	}
+	
+	.services .col-xs-6
+	{
+		width:100%;
+	}
+	
+	.shoppingCenter .btnsTabs
+	{
+		width:100%
+	}
+	
+	.shoppingCenter .btnsTabs li
+	{
+		float:none;
+		width:100%
+	}
+	
+	.shoppingCenter .btnsTabs li:not(:last-of-type)
+	{
+		border-left: none;
+		border-bottom: 2px solid #1D9DD5;
+	}
+	
+	.contactUs .contactForm
+	{
+		padding:30px 25px
+	}
+	
+	.orderModal .modal-body
+	{
+		padding-left:20px;
+		padding-right:20px
+	}
+	.orderModal .modal-body .close
+	{
+	    top: 13px;
+    	right: 13px;
+	}
+
+	
+	.orderModal .modal-body .show
+	{
+	    font-size: 19px;
+	    margin-bottom: 25px;
+	    padding-right: 15px;
+	}
+	
+	.orderModal .modal-body .orderForm .inputStyle span,
+	.orderModal .modal-body .orderForm .inputStyle .inputFloat
+	{
+		float:none;
+		width:100%
+	}
+	.orderModal .modal-body .orderForm .inputStyle span
+	{
+		margin-bottom:15px;
+		display:block
+	}
+
+	.BlogModal .modal-body
+	{
+		padding-left:15px;
+		padding-right:15px
+	}
+	
+	.BlogModal .modal-body .date
+	{
+		margin-bottom:10px
+	}
+	
+	.BlogModal .modal-body .close
+	{
+	    top: 10px;
+    	right: 15px;
+	}
+	
+	.BlogModal .modal-body .show 
+	{
+	    font-size: 19px;
+	    margin-bottom: 40px;
+	    padding-right: 10px;
+	}
+	
+	
+	
+}
